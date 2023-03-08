@@ -32,7 +32,7 @@ function toggleMobileMenu() {
     }
 
     closeProductDetailAside();
-    
+
     mobileMenu.classList.toggle('inactive');
 }
 
@@ -137,7 +137,7 @@ function renderProducts(products) {
 
         const productInfoFigure = document.createElement('figure');
         const productImgCart = document.createElement('img');
-        productImgCart.setAttribute('src', './icons/bt_Add_to_cart.svg');
+        productImgCart.setAttribute('src', './icons/bt_add_to_cart.svg');
 
         // Vamos a agregar cada elemento a su elemento padre
         productInfoFigure.appendChild(productImgCart);
